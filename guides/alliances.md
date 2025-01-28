@@ -6,13 +6,13 @@ Conquest is a first and foremost a social game.
 
 For multiple reasons:
 
-* the fact that you can see everyone planets&#x20;
-* That your power is related to your stake and that by collaborating you can escape that equation and instead increase your overall power while keeping your risk same.&#x20;
-* And unless you have allies, you ll have to assume everyone is your enemies and attacking anyone of them will expose you to others
+- the fact that you can see everyone planets&#x20;
+- That your power is related to your stake and that by collaborating you can escape that equation and instead increase your overall power while keeping your risk same.&#x20;
+- And unless you have allies, you ll have to assume everyone is your enemies and attacking anyone of them will expose you to others
 
 As such your best bet is to quickly identify your potential allies and make some arangement.
 
-Conquest add the concept of alliances to make it easier for you to collaborate.
+Conquest add the concept of alliances make it even easier for you to collaborate.
 
 With an alliance, you can send spaceships to your allies without cost and you can feel confident that attacking the same enemy planet will not result in each of you attacking each other.
 
@@ -24,17 +24,15 @@ While we encourage players to create their own smart contract (contact us if you
 
 We open-sourced the basic-alliance smart contract and website here: [https://github.com/wighawag/conquest-basic-alliance](https://github.com/wighawag/conquest-basic-alliance)
 
-We are also hosting it here : [https://basic-alliances-beta.conquest.etherplay.io/](https://basic-alliances-beta.conquest.etherplay.io/)
+We are also hosting it here : [https://2025-1.conquest.game/basic-alliances/](https://2025-1.conquest.game/basic-alliances/)
 
 If you want to create your own alliance system, you can also have your own website to manage it the way you like, without the need for any change in conquest itself. It is fully composable
 
-
-
 If you just want to create a quick alliance, follow along:
 
-Go to  [https://basic-alliances-beta.conquest.etherplay.io/](https://basic-alliances-beta.conquest.etherplay.io/)
+Go to [https://2025-1.conquest.game/basic-alliances/](https://2025-1.conquest.game/basic-alliances/)
 
-![](../.gitbook/assets/alliance\_000.png)
+![](../.gitbook/assets/alliance_000.png)
 
 Click "Create a new Alliance" to create a new alliance
 
@@ -46,33 +44,31 @@ Once the tx is confirmed, you ll be both member and administrator of your newly 
 
 In the picture below, the account has already another member
 
-![](../.gitbook/assets/alliance\_001.png)
+![](../.gitbook/assets/alliance_001.png)
 
 You can always add more member by clicking "Create Invite"
 
 But before you ll need to specify the address of the player you want to add:
 
-![](../.gitbook/assets/alliance\_002.png)
+![](../.gitbook/assets/alliance_002.png)
 
-![](../.gitbook/assets/alliance\_003.png)
+![](../.gitbook/assets/alliance_003.png)
 
 Once the signature goes through, you 'll get an "invite Link" that you can share with the player you want to add as member (Assuming it control that same address you used above)
 
-![](../.gitbook/assets/2022-03-22\_1920x1080\_108.png)
+![](../.gitbook/assets/2022-03-22_1920x1080_108.png)
 
 If you navigate to that link with a different address, that is what you'll see:
 
-![](../.gitbook/assets/alliance\_004.png)
+![](../.gitbook/assets/alliance_004.png)
 
 Otherwise, they'll get a button "Join" to click
 
-![](../.gitbook/assets/alliance\_005.png)
+![](../.gitbook/assets/alliance_005.png)
 
 This will trigger a message signing request as well as a transaction to actually join the alliance.&#x20;
 
 The current UI do not show progress so feel free to follow along the tx on the block explorer and reload the page. This can take a minute or so.
-
-
 
 ### Advantage given to public alliance's member
 

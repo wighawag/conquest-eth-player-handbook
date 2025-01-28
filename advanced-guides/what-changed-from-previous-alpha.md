@@ -1,6 +1,6 @@
 # What changed from previous alpha
 
-The beta comes with various UX improvement, that you can explore in the guides above.
+The new version (beta onward) comes with various UX improvement, that you can explore in the guides above.
 
 It also comes with some core game changes and fixes
 

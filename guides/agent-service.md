@@ -11,46 +11,18 @@ This is to prevent a kind of "front-running" strategy that would allow you to se
 While you can definitely come back to the game to perform the 2nd transaction, it is possible that the time is not suitable for you. We provide thus a service that will resolve the 2nd transaction for you.&#x20;
 
 {% hint style="info" %}
-In conquest.eth your fleets destination are unknown to anyone but you. Using the service thus requires you to trust the entity running it (us in that case) to not reveal your strategy.
+In conquest.eth your fleets destination are unknown to anyone but you. Our new service (version 2025.1 onward) keep that secret, even from us. You still trust us to perform the transaction on your behalf but we do not know the destination of your fleet until reveal time.
 
-We of course do not intend to reveal but we would also like to not have that responsibility so we are keen to see alternative mechanism to solve that problem.
+We of course intend to do our best to perform the reveal transaction in time, but things can always go wrong and you might want to come back to check it for yourself. There is 12h window to reveal so that gives you some time to ensure your fleet as arrived. Of course, ideally you want your fleet to arrive at the planned time for macimum efficiency.
 
-Alliances could for example setup agent-service for their members.
 {% endhint %}
 
-In order to use the service you'll have to go through a registration and top-up process
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_039.png)
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_004.png)
-
-You'll first need to register which require a signature from your wallet to authenticate you. This need to be done only once.
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_005.png)
-
-Then you will see that you have zero ETH in the agent-service account. You ll need to top it up so the agent can perform the transactions on your behalf. It require a minimum balance
+In pas version, you had to go through a registration and top-up process, this is not required anymore. You pay for the service when you send your fleet. THis make a much better user experience.
 
 {% hint style="info" %}
-Since the way gas prices work on ethereum and gnosis chain, it is possible that gas price rises to a level where the minimum balance would not be enough.&#x20;
-
-We haven chosen a default value high enough so it does not happen but technically the agent can be configured to accept even higher prices. The current UI do not allow it though.
+In term of gas pricing, the default client is using a worst case scenario set by us and we cover the case the gas price go above that limit. As such you should be fine.
 {% endhint %}
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_006.png)
-
-Just click "Top up" and it will ask you to confirm a transfer (the screenshot show 0.2 ETH but on Gnosis chain, this would be 0.1 XDAI)
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_008.png) ![](../.gitbook/assets/2021-12-06\_1920x1080\_007.png)
-
-You ll have to wait a bit. The UI currently do not show progress.
-
-Then you can now send fleets away and the "submit to agent-service" will be enabled.
-
-You can always decide to disable it though if you prefers to perform the 2nd transactions manually
-
-![](../.gitbook/assets/2021-12-06\_1920x1080\_009.png)
 
 It is also possible to submit fleets to the agent-service after they have been sent. But this need to be done before the fleet reaches destination.
 
-![](../.gitbook/assets/2021-12-06\_1920x1080\_054.png)
-
+![](../.gitbook/assets/2021-12-06_1920x1080_054.png)
