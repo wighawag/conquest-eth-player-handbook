@@ -10,15 +10,15 @@ The assets/tokens are staked on each planet you claim. These planets then produc
 
 **Got 5 minutes?** Check out a video overview of the gameplay:
 
-{% embed url="https://www.youtube.com/watch?v=3SBuEnbFZz4" %}
+{% embed url="https://youtu.be/vQgu0sEiOcI" %}
+
+** Got 15 minutes?** Check our more detailed overview:
+
+{% embed url="https://youtu.be/vQgu0sEiOcI" %}
 
 ### Guides: Jump right in
 
 Follow our handy guides to get started on the basics as quickly as possible:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
 
 {% content-ref url="guides/setting-up-your-account.md" %}
 [setting-up-your-account.md](guides/setting-up-your-account.md)
