@@ -12,9 +12,9 @@ The assets/tokens are staked on each planet you claim. These planets then produc
 
 {% embed url="https://youtu.be/vQgu0sEiOcI" %}
 
-** Got 15 minutes?** Check our more detailed overview:
+**Got 15 minutes?** Check our more detailed overview:
 
-{% embed url="https://youtu.be/vQgu0sEiOcI" %}
+{% embed url="https://youtu.be/-maYikV-I9I" %}
 
 ### Guides: Jump right in
 
