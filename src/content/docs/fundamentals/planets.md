@@ -1,4 +1,6 @@
-# Planets
+---
+title: Planets
+---
 
 Planets are one of the core concept in conquest.eth
 
@@ -10,7 +12,7 @@ Ownership of planet is not immutable though and you'' have to do your best to ke
 
 Planets have each some  immutable statistics&#x20;
 
-![](../.gitbook/assets/2022-03-22\_215x371.png) ![](../.gitbook/assets/2022-03-22\_226x365.png)
+![](../../../assets/gitbook/2022-03-22\_215x371.png) ![](../../../assets/gitbook/2022-03-22\_226x365.png)
 
 * Capacity: This is the number of planet after which the planet stop producing. Actually when the planet have more spaceships that this number, the number of spaceship starts decreasing at a rate of  1 every 2 seconds.
 * Natives: This number represent the local population present on the planet before anyone claim it. When you stake on a planet you basically perform an attack of power 10,000 (see below) and a fleet of 100,000 spaceships. These fight against the native and the result is what you get on the planet after staing.

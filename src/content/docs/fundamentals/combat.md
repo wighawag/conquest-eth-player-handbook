@@ -1,4 +1,6 @@
-# Combat
+---
+title: Combat
+---
 
 In conquest.eth Combat happen when a fleet arrived at an enemy (or virgin) planets
 
@@ -14,7 +16,7 @@ Let name these as follow:
 
 The result of the combat is as follow:
 
-```
+```solidity
 uint256 attackFactor = numAttack * ((1000000 - _fleetSizeFactor6) + (_fleetSizeFactor6 * numAttack / numDefense));
 uint256 attackDamage = (attackFactor * attack) / defense / 1000000;
 

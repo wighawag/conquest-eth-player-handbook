@@ -1,4 +1,6 @@
-# Fleets
+---
+title: Fleets
+---
 
 Fleets are a group of spaceship traveling to a destination planet. They have an immutable owner but cannot be manipulated.
 

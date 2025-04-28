@@ -1,4 +1,6 @@
-# Upkeep
+---
+title: Upkeep
+---
 
 Upkeep is a mechanism that go along with the planet production cap.
 

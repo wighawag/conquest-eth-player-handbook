@@ -1,46 +1,54 @@
-# What is conquest.eth
+# Starlight Starter Kit: Basics
 
-{% hint style="info" %}
-Note that this handbook is for "Faction Mode" a unique mod of Conquest.eth where player are grouped into pre-determined factions.
-It is running on the [Endurance network](https://ace.fusionist.io/)
-{% endhint %}
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+```
+pnpm create astro@latest -- --template starlight
+```
 
-**In a nutshell:** conquest.eth is a game of strategy and diplomacy where you participate by staking valuable tokens. Kind of like an evolution of Poker but with a strong social element as player can collaborate.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
 
-The assets/tokens are staked on each planet you claim. These planets then produce spaceships that you can send to attack other or help your allies.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## An Introduction
+## 🚀 Project Structure
 
-{% hint style="warning" %}
-Note: these videos pertain to traditional Conquest.eth and do not explain the new features and changes from the "Faction Mode"
-{% endhint %}
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   ├── docs/
+│   └── content.config.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
 
-**Got 5 minutes?** Check out a video overview of the gameplay:
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-{% embed url="https://youtu.be/vQgu0sEiOcI" %}
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-**Got 15 minutes?** Check our more detailed overview:
+Static assets, like favicons, can be placed in the `public/` directory.
 
-{% embed url="https://youtu.be/-maYikV-I9I" %}
+## 🧞 Commands
 
-### Guides: Jump right in
+All commands are run from the root of the project, from a terminal:
 
-Follow our handy guides to get started on the basics as quickly as possible:
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `pnpm install`             | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-{% content-ref url="guides/setting-up-your-account.md" %}
-[setting-up-your-account.md](guides/setting-up-your-account.md)
-{% endcontent-ref %}
+## 👀 Want to learn more?
 
-{% content-ref url="guides/get-hold-of-your-first-planet.md" %}
-[get-hold-of-your-first-planet.md](guides/get-hold-of-your-first-planet.md)
-{% endcontent-ref %}
-
-### Fundamentals
-
-Learn the fundamentals of conquest.eth to get a deeper understanding of the gameplay
-
-{% content-ref url="fundamentals/planets.md" %}
-[planets.md](fundamentals/planets.md)
-{% endcontent-ref %}
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
