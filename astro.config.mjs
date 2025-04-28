@@ -33,8 +33,16 @@ export default defineConfig({
           label: "Guides",
           items: [
             {
-              label: "Setting up your account",
-              slug: "guides/setting-up-your-account",
+              label: "Setup your account",
+              slug: "guides/setup-your-account",
+            },
+            {
+              label: "Mint Your Entry Pass",
+              slug: "guides/mint-your-entry-pass",
+            },
+            {
+              label: "Choose Your Factions",
+              slug: "guides/choose-your-factions",
             },
             {
               label: "Get hold of your first planet",
