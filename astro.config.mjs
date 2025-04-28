@@ -7,6 +7,13 @@ export default defineConfig({
   image: {
     service: passthroughImageService(), // TODO astro image manipulation blur pixel images
   },
+  vite: {
+    build: {
+      rollupOptions: {
+        external: ["@ctrl/tinycolor"],
+      },
+    },
+  },
   integrations: [
     starlight({
       title: "Conquest Faction Mod",
