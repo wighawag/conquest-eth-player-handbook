@@ -1,10 +1,14 @@
 # What is conquest.eth
 
 {% hint style="info" %}
-**In a nutshell:** conquest.eth is a game of strategy and diplomacy where you participate by staking valuable tokens. Kind of like an evolution of Poker.
+Note that this handbook is for "Faction Mode" a unique mod of Conquest.eth where player are grouped into pre-determined factions.
+It is running on the [Endurance network](https://ace.fusionist.io/)
+{% endhint %}
+
+
+**In a nutshell:** conquest.eth is a game of strategy and diplomacy where you participate by staking valuable tokens. Kind of like an evolution of Poker but with a strong social element as player can collaborate.
 
 The assets/tokens are staked on each planet you claim. These planets then produce spaceships that you can send to attack other or help your allies.
-{% endhint %}
 
 ## An Introduction
 
