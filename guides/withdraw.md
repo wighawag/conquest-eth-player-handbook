@@ -1,6 +1,6 @@
 # Withdraw
 
-Once you have exited your planets, the fund can be withdrawn.
+Once you have exited your planets, the play token can be withdrawn.
 
 Just head to the withdrawals page
 

@@ -30,6 +30,11 @@ Note that our syncing service has no access to your data. This is because your d
 
 ### Public Signing Key
 
-The other signing message that you ll have to agree is to setup a public key for other to send you private message. This feature is not yet in place though and for now its only utility is for players to advertise a channel of their choice to be contacted (Discord for example). The message need to be signed only once.
+The other signing message that you ll have to agree is to setup a public key for other to send you private message. This feature is not yet fully in place though.
+
+For now you can use for 2 purposes:
+
+- advertise a channel of your choice to be contacted (Discord for example). 
+- chat in the global and faction specific real-time chat box
 
 ![](../.gitbook/assets/2021-12-02\_1920x1080\_002.png)

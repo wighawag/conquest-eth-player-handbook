@@ -32,11 +32,9 @@ Once you confirm this information, you'll see the following:
 
 ![](../.gitbook/assets/send\_005.png)
 
-This screen will let you decide how many spaceship you want your fleet to depart with. If the destination is another player with which you have no alliance, it will by default send an attacking fleet. But you can chose to instead send friendly spaceships by sectioning the "give" tab
+This screen will let you decide how many spaceship you want your fleet to depart with. If the destination is another player of a different faction, it will ask for an attack fleet. If on the other hand, you are in the same faction, they you'll be able to send reinforcement.
 
 ![](../.gitbook/assets/2021-12-02\_1920x1080\_023.png)
-
-Unless you and the destination are in an alliance, the sending of friendly spaceship incurs a 20% burn tax: only 80% of your spaceships will actually be given.
 
 Once you click confirm, you ll be reminded of the importance of the second transaction:
 
@@ -57,3 +55,6 @@ And you will see your fleet on its way on the map:
 You can always inspect your fleets by clicking on them (or zooming in):
 
 ![](../.gitbook/assets/2021-12-02\_1920x1080\_029.png)
+
+
+Note that if you send an attack to a player of another faction and another player from your same faction capture the planet before your fleet arrive and remain the owner, your fleet will be changed to be a reinforcement.

@@ -12,6 +12,11 @@ The assets/tokens are staked on each planet you claim. These planets then produc
 
 ## An Introduction
 
+{% hint style="warning" %}
+Note: these videos pertain to traditional Conquest.eth and do not explain the new features and changes from the "Faction Mode"
+{% endhint %}
+
+
 **Got 5 minutes?** Check out a video overview of the gameplay:
 
 {% embed url="https://youtu.be/vQgu0sEiOcI" %}

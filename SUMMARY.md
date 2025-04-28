@@ -12,15 +12,11 @@
 * [Resolving Manually](guides/resolving-manually.md)
 * [Exit a planet](guides/exit-a-planet.md)
 * [Withdraw](guides/withdraw.md)
-* [Alliances](guides/alliances.md)
-* [Organize your alliance](guides/organize-your-alliance.md)
-* [Create your own custom alliance](guides/create-your-own-custom-alliance.md)
 
 ## Advanced Guides
 
-* [In-Game Marketplace](advanced-guides/in-game-marketplace.md)
 * [Combining Attacks](advanced-guides/combining-attacks.md)
-* [What changed from previous alpha](advanced-guides/what-changed-from-previous-alpha.md)
+* [What changed from traditional mode](advanced-guides/what-changed-from-traditional-mode.md)
 
 ## Fundamentals
 
