@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   image: {
-    service: passthroughImageService(), // TODO fix conquest
+    service: passthroughImageService(), // TODO astro image manipulation blur pixel images
   },
   integrations: [
     starlight({
@@ -93,15 +93,8 @@ export default defineConfig({
             },
           ],
         },
-        // {
-        //   label: "Reference",
-        //   autogenerate: { directory: "reference" },
-        // },
       ],
-      customCss: [
-        // Relative path to your custom CSS file
-        "./src/styles/custom.css",
-      ],
+      customCss: ["./src/styles/custom.css"],
     }),
   ],
 });
